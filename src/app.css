@@ -1,0 +1,63 @@
+.app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.filter-panel {
+    margin-bottom: 20px;
+}
+
+.filter-panel button {
+    margin: 0 5px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.filter-panel button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.log-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.log-table th,
+.log-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.log-table th {
+    background-color: #f4f4f4;
+}
+
+.log-table tr.info {
+    background-color: #e6f3ff;
+}
+
+.log-table tr.warn {
+    background-color: #fff3cd;
+}
+
+.log-table tr.error {
+    background-color: #f8d7da;
+}
+
+canvas {
+    max-width: 100%;
+    margin-top: 20px;
+}
